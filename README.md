@@ -7,9 +7,6 @@ A blogging platform built on ruby on rails allowing the user (admin) to post abo
 
 ----------
 
- [TOC]
-
-
 **Idea**
 -------------
 ### Coming up with the idea:
