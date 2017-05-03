@@ -6,6 +6,10 @@
 A blogging platform built on ruby on rails allowing the user (admin) to post about hotel stays and his review. The reviews are created by an expert in the industry and are structured with constructive criticism, positives, negatives and ways to improve the guest's experience.
 
 ----------
+
+ [TOC]
+
+
 **Idea**
 -------------
 ### Coming up with the idea:
@@ -56,11 +60,11 @@ multiple = ["RENAISSANCE∙THE RENAISSANCE HOTEL∙THE RENAISSANCE HOTEL SEOUL�
 
 multiple.each do |renaissance|
 	renaissance * 10
-    "THE RENAISSANCE MAN∙"
-    renaissance * 23
+  "THE RENAISSANCE MAN∙"
+  renaissance * 23
 	"COMING SOON∙"
 	renaissance * 29
-	end
+end
 ```
 The result of my "coming soon" webpage holder:
 
