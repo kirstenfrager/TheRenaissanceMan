@@ -5,6 +5,8 @@
 ========
 A blogging platform built on ruby on rails allowing the user (admin) to post about hotel stays and his review. The reviews are created by an expert in the industry and are structured with constructive criticism, positives, negatives and ways to improve the guest's experience.
 
+http://therenaissanceman.herokuapp.com/
+
 ----------
 
 **Idea**
@@ -38,7 +40,7 @@ After saying he wants to travel a lot in retirement,, the idea started coming to
 
 This will be a work in progress application. To start I will have a "coming soon" page with "The Renaissance Man"logo already deployed to heroku as this will be a teaser for my dad as his birthday present.
 
-### Coming Soon Design
+### "Coming Soon" Design
 
 As my dad has been working for the Renaissance for over 25+ years, I wanted the design to have similarities with the Renaissance's brand image. For the "coming soon" page I wanted to replicate The Renassaince's company patter which is described as:
 
@@ -56,9 +58,9 @@ To replicate this design I used the same colours and created a method to loop ov
 multiple = ["RENAISSANCE∙THE RENAISSANCE HOTEL∙THE RENAISSANCE HOTEL SEOUL∙THE RENAISSANCE KUALA LUMPUR∙"]
 
 multiple.each do |renaissance|
-	renaissance * 10
-  "THE RENAISSANCE MAN∙"
-  renaissance * 23
+	renaissance * 5
+	"THE RENAISSANCE MAN∙"
+	renaissance * 23
 	"COMING SOON∙"
 	renaissance * 29
 end
